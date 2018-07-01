@@ -1,0 +1,9 @@
+---
+name: NoProxy
+version: 1.0.0
+main: NoProxy\Main
+api: 3.0.0
+author: ArceusMatt
+description: Kick players with vpns/proxies.
+website: https://github.com/arceusmatt
+...
