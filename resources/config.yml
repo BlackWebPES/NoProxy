@@ -1,0 +1,6 @@
+---
+# list of ISPs of Proxy IP addresses
+isp:
+- "OVH SAS"
+- "Digital Ocean"
+...
