@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener{
 public function onEnable(){
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
 $this->saveDefaultConfig();
-$this->getLogger()->info("\nNoProxy enabled successfully.\n");
+$this->getLogger()->info("NoProxy enabled successfully");
 }
 
 public function onJoin(PlayerJoinEvent $event){
@@ -29,12 +29,11 @@ $query = unserialize($get);
 /* isp checker */
 foreach($array as $isps){
 if(strtolower($query["isp"]) == strtolower($isps)){
-$player->kick("§l§cProxy detected.", false);
+$player->kick("§c§lProxy Detected", false);
 }
 }
 /* end of isp checker */
 }
 }
 }
-
 }
